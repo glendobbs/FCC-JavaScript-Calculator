@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+
+body {
+    /* IE10+ */
+  background-image: -ms-linear-gradient(bottom left, #BDFFF8 0%, #FFBDEB 100%);
+  /* Mozilla Firefox */
+  background-image: -moz-linear-gradient(bottom left, #BDFFF8 0%, #FFBDEB 100%);
+  /* Opera */
+  background-image: -o-linear-gradient(bottom left, #BDFFF8 0%, #FFBDEB 100%);
+  /* Webkit (Safari/Chrome 10) */
+  background-image: -webkit-gradient(linear, left bottom, right top, color-stop(0, #BDFFF8), color-stop(100, #FFBDEB));
+  /* Webkit (Chrome 11+) */
+  background-image: -webkit-linear-gradient(bottom left, #BDFFF8 0%, #FFBDEB 100%);
+  /* W3C Markup */
+  background-image: linear-gradient(to top right, #BDFFF8 0%, #FFBDEB 100%);
+  height: 100vh;
+}
+
+.container {
+  margin-top: 220px;
+}
+
+#calc {
+  background: #F6EEE5;
+  width: 295px;
+  border: 2px solid #9C9791;
+  border-radius: 10px;
+  box-shadow: 5px 8px 10px 0.1px rgba(0, 0, 0, 0.68), inset -1px -2px 10px 0.1px #8D8983;
+}
+
+#display {
+  width: 261px;
+  height: 65px;
+  border: 2.5px solid #B0C3C3;
+  border-radius: 8px;
+  background: #E1FAF9;
+  font-size: 3em;
+  font-family: monospace, sans-serif;
+  padding: .05em;
+  text-align: right;
+  margin: 30px auto 7px auto;
+}
+
+.btn-default {
+  width: 62px;
+  margin-top: 4px;
+  background: #96A1A8;
+  color: white;
+  border: 0px solid transparent;
+  box-shadow: inset 0 -2.5px rgba(0, 0, 0, .25);
+}
+
+.ops {
+  background: #FF9B3C;
+}
+
+button#AC,
+button#CE {
+  background: #FF436B;
+}
+
+button:hover,
+button:active,
+button:focus {
+  background: #E1FAF9;
+  outline: 0 !important;
+}
+
+#zero,
+#equal {
+  width: 127px;
+  margin-bottom: 30px;
+}
+
+span.error {
+  text-align: center;
+  font-size: .5em;
+}
+
+#footer {
+  color: grey;
+  position: fixed;
+  left: 44%;
+  bottom: 10px;
+}
